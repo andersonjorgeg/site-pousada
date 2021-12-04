@@ -1,0 +1,33 @@
+.fundo-topo {
+  background-image: url(./assets/img-fundo.jpg);
+  height: 27vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.sem-borda article{
+  border: none;
+}
+
+.title-lista h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.title-lista ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  /* border: 1px solid #ccc; */
+}
+
+.title-lista ul li {
+  width: 25%;
+  font-size: 0.9em;
+  padding: 10px 15px 10px 0;
+}
+
+
